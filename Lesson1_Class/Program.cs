@@ -7,7 +7,7 @@
             //Personel.cs dosyasındaki Personel sınıfını burada kullanabiliriz.
             //Program.cs dosyası Personel sınıfına erişebilir çünkü aynı namespace içerisinde bulunuyorlar.
             //.cs=> C# dosyası olduğunu belirtir ve C Sharp (C#) baş harflerini alarak yazılmıştır
-            Personel getirPersonel = new Personel();
+            Personel getirPersonel = new Personel(); //instance alma işlemi yapılır.personel sınıfından getirPersonel adında bir nesne oluşturuldu.
 
             getirPersonel.PersonelEkle("Yasin", "Bağrıaçık",   "102893123");// Personel ekleme işlemleri
 
